@@ -1,0 +1,935 @@
+[
+  {
+    "id": "4e8c8e02-6f43-4f94-9330-2751d4a507d1",
+    "brand": "Chevrolet",
+    "model": "Silverado",
+    "year": 2021,
+    "color": "Blue",
+    "mileage": 40000,
+    "engine": {
+      "type": "V8",
+      "displacement": "6.2L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "1GCPYFEL0MF157430",
+    "maintenance": [
+      {
+        "type": "Air Filter Replacement",
+        "date": "2022-02-18",
+        "mileage": 30000,
+        "mechanic": "FilterTech Garage",
+        "cost": 30,
+        "notes": "Replaced air filter with high-flow aftermarket filter"
+      },
+      {
+        "type": "Transmission Fluid Change",
+        "date": "2023-01-05",
+        "mileage": 35000,
+        "mechanic": "TransFix Experts",
+        "cost": 180,
+        "notes": "Flushed transmission and replaced fluid with OEM equivalent"
+      }
+    ]
+  },
+  {
+    "id": "1faea047-6ac5-4432-b1bf-e24b51d30e8a",
+    "brand": "Audi",
+    "model": "A4",
+    "year": 2021,
+    "color": "Gray",
+    "mileage": 28000,
+    "engine": {
+      "type": "Inline-4",
+      "displacement": "2.0L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "WAUENAF46MN127011",
+    "maintenance": [
+      {
+        "type": "Brake Pad Replacement",
+        "date": "2022-08-10",
+        "mileage": 25000,
+        "mechanic": "Audi Service Center",
+        "cost": 400,
+        "notes": "Replaced all brake pads with OEM parts"
+      },
+      {
+        "type": "Oil Filter Replacement",
+        "date": "2023-04-05",
+        "mileage": 26000,
+        "mechanic": "Audi Service Center",
+        "cost": 80,
+        "notes": "Replaced oil filter during routine oil change"
+      }
+    ]
+  },
+  {
+    "id": "4e50c1c8-b392-48d3-a109-ae8e9ed66b23",
+    "brand": "Nissan",
+    "model": "Altima",
+    "year": 2020,
+    "color": "Silver",
+    "mileage": 32000,
+    "engine": {
+      "type": "Inline-4",
+      "displacement": "2.5L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "CVT",
+    "vin": "1N4AL3AP0LC107986",
+    "maintenance": [
+      {
+        "type": "Air Filter Replacement",
+        "date": "2022-10-22",
+        "mileage": 30000,
+        "mechanic": "Nissan Service Center",
+        "cost": 40,
+        "notes": "Replaced air filter with OEM part"
+      },
+      {
+        "type": "Brake Fluid Flush",
+        "date": "2023-03-15",
+        "mileage": 31000,
+        "mechanic": "Nissan Service Center",
+        "cost": 120,
+        "notes": "Flushed brake fluid and refilled with new fluid"
+      }
+    ]
+  },
+  {
+    "id": "2fc7e679-cf1c-4f2c-b328-1e19944337cd",
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "year": 2021,
+    "color": "White",
+    "mileage": 25000,
+    "engine": {
+      "type": "Inline-4",
+      "displacement": "2.0L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "5NPD74LF6MH035740",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2022-07-10",
+        "mileage": 20000,
+        "mechanic": "Hyundai Service Center",
+        "cost": 60,
+        "notes": "Used synthetic oil and replaced oil filter"
+      },
+      {
+        "type": "Coolant Top-Up",
+        "date": "2023-02-28",
+        "mileage": 23000,
+        "mechanic": "Hyundai Service Center",
+        "cost": 20,
+        "notes": "Topped up coolant level to recommended level"
+      }
+    ]
+  },
+  {
+    "id": "d6401d25-8d12-481d-8aef-04d5730e1767",
+    "brand": "Kia",
+    "model": "Optima",
+    "year": 2020,
+    "color": "Blue",
+    "mileage": 28000,
+    "engine": {
+      "type": "Inline-4",
+      "displacement": "2.4L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "5XXGT4L35LG409291",
+    "maintenance": [
+      {
+        "type": "Battery Check",
+        "date": "2022-12-15",
+        "mileage": 25000,
+        "mechanic": "Kia Service Center",
+        "cost": 0,
+        "notes": "Checked battery condition, no issues found"
+      },
+      {
+        "type": "Wheel Alignment",
+        "date": "2023-05-20",
+        "mileage": 27000,
+        "mechanic": "Kia Service Center",
+        "cost": 60,
+        "notes": "Adjusted wheel alignment to manufacturer specifications"
+      }
+    ]
+  },
+  {
+    "id": "e2c1915d-d841-4e47-a22e-66e6d7df9e68",
+    "brand": "Volkswagen",
+    "model": "Jetta",
+    "year": 2021,
+    "color": "Black",
+    "mileage": 21000,
+    "engine": {
+      "type": "Inline-4",
+      "displacement": "1.4L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "3VWC57BU1NM055064",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2022-12-10",
+        "mileage": 18000,
+        "mechanic": "Volkswagen Service Center",
+        "cost": 70,
+        "notes": "Used synthetic oil and replaced oil filter"
+      },
+      {
+        "type": "Tire Rotation",
+        "date": "2023-07-05",
+        "mileage": 20000,
+        "mechanic": "Volkswagen Service Center",
+        "cost": 40,
+        "notes": "Rotated tires for even wear"
+      }
+    ]
+  },
+  {
+    "id": "e8d3c7cb-95f4-4bbf-a49a-1fbccf6b5a05",
+    "brand": "Subaru",
+    "model": "Outback",
+    "year": 2022,
+    "color": "Green",
+    "mileage": 19000,
+    "engine": {
+      "type": "Flat-4",
+      "displacement": "2.5L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "CVT",
+    "vin": "4S4BTANC5N3324511",
+    "maintenance": [
+      {
+        "type": "Brake Inspection",
+        "date": "2023-01-15",
+        "mileage": 15000,
+        "mechanic": "Subaru Service Center",
+        "cost": 0,
+        "notes": "Inspected brake pads and rotors, no replacements needed"
+      },
+      {
+        "type": "Fluid Top-Up",
+        "date": "2023-08-20",
+        "mileage": 18000,
+        "mechanic": "Subaru Service Center",
+        "cost": 30,
+        "notes": "Topped up all fluids to recommended levels"
+      }
+    ]
+  },
+  {
+    "id": "8b2cb011-5c34-42b1-80a2-4d5b9d8f70f7",
+    "brand": "Mazda",
+    "model": "CX-5",
+    "year": 2020,
+    "color": "Red",
+    "mileage": 26000,
+    "engine": {
+      "type": "Inline-4",
+      "displacement": "2.5L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "JM3KFADMXL0831321",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2022-11-10",
+        "mileage": 20000,
+        "mechanic": "Mazda Service Center",
+        "cost": 65,
+        "notes": "Used synthetic oil and replaced oil filter"
+      },
+      {
+        "type": "Brake Pad Replacement",
+        "date": "2023-06-05",
+        "mileage": 24000,
+        "mechanic": "Mazda Service Center",
+        "cost": 250,
+        "notes": "Replaced all brake pads with OEM parts"
+      }
+    ]
+  },
+  {
+    "id": "5eab35ef-1f1a-4cd5-a17e-aa3be058cc3e",
+    "brand": "Tesla",
+    "model": "Model 3",
+    "year": 2021,
+    "color": "White",
+    "mileage": 15000,
+    "engine": {
+      "type": "Electric Motor",
+      "batteryCapacity": "75 kWh"
+    },
+    "transmission": "Single-Speed Automatic",
+    "vin": "5YJ3E1EA8JF006658",
+    "maintenance": [
+      {
+        "type": "Software Update",
+        "date": "2022-09-20",
+        "mileage": 10000,
+        "mechanic": "Tesla Service Center",
+        "cost": 0,
+        "notes": "Applied latest software update for improved performance and features"
+      },
+      {
+        "type": "Battery Inspection",
+        "date": "2023-03-10",
+        "mileage": 13000,
+        "mechanic": "Tesla Service Center",
+        "cost": 0,
+        "notes": "Inspected battery pack for any abnormalities, none found"
+      }
+    ]
+  },
+  {
+    "id": "369c3308-901d-4e5c-a6e3-1887dd6d6b16",
+    "brand": "Volvo",
+    "model": "XC60",
+    "year": 2020,
+    "color": "Silver",
+    "mileage": 32000,
+    "engine": {
+      "type": "Inline-4",
+      "displacement": "2.0L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "LYVA22RK8LB374022",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2022-11-05",
+        "mileage": 25000,
+        "mechanic": "Volvo Service Center",
+        "cost": 90,
+        "notes": "Used synthetic oil and replaced oil filter"
+      },
+      {
+        "type": "Brake Fluid Flush",
+        "date": "2023-06-20",
+        "mileage": 30000,
+        "mechanic": "Volvo Service Center",
+        "cost": 120,
+        "notes": "Flushed brake fluid and refilled with new fluid"
+      }
+    ]
+  },
+  {
+    "id": "b84a672b-47ea-43c0-9863-1b3a2d3b38ec",
+    "brand": "Lexus",
+    "model": "RX 350",
+    "year": 2022,
+    "color": "Gray",
+    "mileage": 22000,
+    "engine": {
+      "type": "V6",
+      "displacement": "3.5L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "2T2HZMDA3NC018662",
+    "maintenance": [
+      {
+        "type": "Tire Rotation",
+        "date": "2023-02-05",
+        "mileage": 20000,
+        "mechanic": "Lexus Service Center",
+        "cost": 50,
+        "notes": "Rotated tires for even wear"
+      },
+      {
+        "type": "Air Filter Replacement",
+        "date": "2023-08-15",
+        "mileage": 22000,
+        "mechanic": "Lexus Service Center",
+        "cost": 40,
+        "notes": "Replaced air filter with OEM part"
+      }
+    ]
+  },
+  {
+    "id": "293c6122-805a-4515-ae81-e46ad36bce79",
+    "brand": "Infiniti",
+    "model": "Q50",
+    "year": 2020,
+    "color": "Black",
+    "mileage": 28000,
+    "engine": {
+      "type": "V6",
+      "displacement": "3.0L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "JN1EV7AP0LM202511",
+    "maintenance": [
+      {
+        "type": "Brake Pad Replacement",
+        "date": "2022-10-10",
+        "mileage": 25000,
+        "mechanic": "Infiniti Service Center",
+        "cost": 300,
+        "notes": "Replaced all brake pads with OEM parts"
+      },
+      {
+        "type": "Oil Change",
+        "date": "2023-05-05",
+        "mileage": 26000,
+        "mechanic": "Infiniti Service Center",
+        "cost": 70,
+        "notes": "Used synthetic oil and replaced oil filter"
+      }
+    ]
+  },
+  {
+    "id": "f90d0584-7a3e-42b3-a621-90a097e94f57",
+    "brand": "Acura",
+    "model": "MDX",
+    "year": 2021,
+    "color": "Blue",
+    "mileage": 24000,
+    "engine": {
+      "type": "V6",
+      "displacement": "3.5L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "5J8YD4H03ML100845",
+    "maintenance": [
+      {
+        "type": "Wheel Alignment",
+        "date": "2022-08-20",
+        "mileage": 20000,
+        "mechanic": "Acura Service Center",
+        "cost": 80,
+        "notes": "Adjusted wheel alignment to manufacturer specifications"
+      },
+      {
+        "type": "Battery Replacement",
+        "date": "2023-04-10",
+        "mileage": 22000,
+        "mechanic": "Acura Service Center",
+        "cost": 250,
+        "notes": "Replaced battery with OEM equivalent"
+      }
+    ]
+  },
+  {
+    "id": "37e6f09d-d036-46da-b8e1-18f30955b71b",
+    "brand": "Jeep",
+    "model": "Wrangler",
+    "year": 2022,
+    "color": "Green",
+    "mileage": 20000,
+    "engine": {
+      "type": "V6",
+      "displacement": "3.6L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "1C4HJXEG0NW135321",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2023-02-20",
+        "mileage": 15000,
+        "mechanic": "Jeep Service Center",
+        "cost": 60,
+        "notes": "Used synthetic oil and replaced oil filter"
+      },
+      {
+        "type": "Brake Inspection",
+        "date": "2023-09-15",
+        "mileage": 18000,
+        "mechanic": "Jeep Service Center",
+        "cost": 0,
+        "notes": "Inspected brake pads and rotors, no replacements needed"
+      }
+    ]
+  },
+  {
+    "id": "4c6eb8c7-52e8-462d-ba3a-c0132d9be674",
+    "brand": "GMC",
+    "model": "Sierra",
+    "year": 2021,
+    "color": "Black",
+    "mileage": 35000,
+    "engine": {
+      "type": "V8",
+      "displacement": "5.3L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "3GTU2PEJ5MG210651",
+    "maintenance": [
+      {
+        "type": "Air Filter Replacement",
+        "date": "2022-07-15",
+        "mileage": 30000,
+        "mechanic": "GMC Service Center",
+        "cost": 40,
+        "notes": "Replaced air filter with OEM part"
+      },
+      {
+        "type": "Spark Plug Replacement",
+        "date": "2023-02-05",
+        "mileage": 32000,
+        "mechanic": "GMC Service Center",
+        "cost": 150,
+        "notes": "Replaced all spark plugs with OEM parts"
+      }
+    ]
+  },
+  {
+    "id": "7480787e-4086-405e-84ff-12794ad40bc3",
+    "brand": "Porsche",
+    "model": "911",
+    "year": 2022,
+    "color": "Red",
+    "mileage": 10000,
+    "engine": {
+      "type": "Flat-6",
+      "displacement": "3.0L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Manual",
+    "vin": "WP0AA2A99LS109190",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2023-01-10",
+        "mileage": 5000,
+        "mechanic": "Porsche Service Center",
+        "cost": 120,
+        "notes": "Used synthetic oil and replaced oil filter"
+      },
+      {
+        "type": "Brake Fluid Flush",
+        "date": "2023-08-20",
+        "mileage": 8000,
+        "mechanic": "Porsche Service Center",
+        "cost": 200,
+        "notes": "Flushed brake fluid and refilled with new fluid"
+      }
+    ]
+  },
+  {
+    "id": "f8c19e0c-66c1-4fb3-bc8c-89c6609c614f",
+    "brand": "Jaguar",
+    "model": "F-Pace",
+    "year": 2021,
+    "color": "White",
+    "mileage": 18000,
+    "engine": {
+      "type": "Inline-4",
+      "displacement": "2.0L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "SADCK2FXXMA678253",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2022-12-20",
+        "mileage": 15000,
+        "mechanic": "Jaguar Service Center",
+        "cost": 110,
+        "notes": "Used synthetic oil and replaced oil filter"
+      },
+      {
+        "type": "Battery Replacement",
+        "date": "2023-07-15",
+        "mileage": 16000,
+        "mechanic": "Jaguar Service Center",
+        "cost": 300,
+        "notes": "Replaced battery with OEM equivalent"
+      }
+    ]
+  },
+  {
+    "id": "bd8b5e7f-2284-4df4-8c07-b8402c011d4d",
+    "brand": "Land Rover",
+    "model": "Range Rover Sport",
+    "year": 2020,
+    "color": "Black",
+    "mileage": 25000,
+    "engine": {
+      "type": "V6",
+      "displacement": "3.0L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "SALWR2RE3LA927198",
+    "maintenance": [
+      {
+        "type": "Air Filter Replacement",
+        "date": "2022-10-10",
+        "mileage": 20000,
+        "mechanic": "Land Rover Service Center",
+        "cost": 90,
+        "notes": "Replaced air filter with OEM part"
+      },
+      {
+        "type": "Brake Pad Replacement",
+        "date": "2023-05-25",
+        "mileage": 23000,
+        "mechanic": "Land Rover Service Center",
+        "cost": 500,
+        "notes": "Replaced all brake pads with OEM parts"
+      }
+    ]
+  },
+  {
+    "id": "3b438b38-6ef6-43ae-af64-11810a539ed5",
+    "brand": "Chrysler",
+    "model": "300",
+    "year": 2022,
+    "color": "Blue",
+    "mileage": 15000,
+    "engine": {
+      "type": "V6",
+      "displacement": "3.6L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "2C3CCAAG1NH534441",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2023-01-20",
+        "mileage": 10000,
+        "mechanic": "Chrysler Service Center",
+        "cost": 50,
+        "notes": "Used synthetic oil and replaced oil filter"
+      },
+      {
+        "type": "Tire Rotation",
+        "date": "2023-08-10",
+        "mileage": 13000,
+        "mechanic": "Chrysler Service Center",
+        "cost": 30,
+        "notes": "Rotated tires for even wear"
+      }
+    ]
+  },
+  {
+    "id": "e77f59ef-2ad3-4e6e-b39e-4c764fe15f1b",
+    "brand": "Buick",
+    "model": "Encore",
+    "year": 2021,
+    "color": "Red",
+    "mileage": 20000,
+    "engine": {
+      "type": "Inline-4",
+      "displacement": "1.4L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "KL4CJASB3MB389754",
+    "maintenance": [
+      {
+        "type": "Brake Inspection",
+        "date": "2022-12-10",
+        "mileage": 15000,
+        "mechanic": "Buick Service Center",
+        "cost": 0,
+        "notes": "Inspected brake pads and rotors, no replacements needed"
+      },
+      {
+        "type": "Oil Change",
+        "date": "2023-06-05",
+        "mileage": 18000,
+        "mechanic": "Buick Service Center",
+        "cost": 60,
+        "notes": "Used synthetic oil and replaced oil filter"
+      }
+    ]
+  },
+  {
+    "id": "c1da8a32-793b-4e68-b5ab-3f3d4cd91447",
+    "brand": "Cadillac",
+    "model": "Escalade",
+    "year": 2022,
+    "color": "White",
+    "mileage": 18000,
+    "engine": {
+      "type": "V8",
+      "displacement": "6.2L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "1GYS4BKJ4NR321701",
+    "maintenance": [
+      {
+        "type": "Tire Replacement",
+        "date": "2023-01-15",
+        "mileage": 15000,
+        "mechanic": "Cadillac Service Center",
+        "cost": 1000,
+        "notes": "Replaced all four tires with OEM replacements"
+      },
+      {
+        "type": "Battery Replacement",
+        "date": "2023-08-20",
+        "mileage": 17000,
+        "mechanic": "Cadillac Service Center",
+        "cost": 350,
+        "notes": "Replaced battery with OEM equivalent"
+      }
+    ]
+  },
+  {
+    "id": "9488e4f6-86b5-46cd-b005-e4445cf51791",
+    "brand": "Lincoln",
+    "model": "Aviator",
+    "year": 2020,
+    "color": "Silver",
+    "mileage": 22000,
+    "engine": {
+      "type": "V6",
+      "displacement": "3.0L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "5LMYJ6XY3LGL01382",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2022-09-20",
+        "mileage": 20000,
+        "mechanic": "Lincoln Service Center",
+        "cost": 80,
+        "notes": "Used synthetic oil and replaced oil filter"
+      },
+      {
+        "type": "Brake Pad Replacement",
+        "date": "2023-04-15",
+        "mileage": 21000,
+        "mechanic": "Lincoln Service Center",
+        "cost": 400,
+        "notes": "Replaced all brake pads with OEM parts"
+      }
+    ]
+  },
+  {
+    "id": "ba36b00e-cf32-4743-a7ed-892f22f8f94c",
+    "brand": "Mitsubishi",
+    "model": "Outlander",
+    "year": 2021,
+    "color": "Blue",
+    "mileage": 25000,
+    "engine": {
+      "type": "Inline-4",
+      "displacement": "2.4L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "CVT",
+    "vin": "JA4AD3A31MZ003775",
+    "maintenance": [
+      {
+        "type": "Battery Check",
+        "date": "2022-11-20",
+        "mileage": 20000,
+        "mechanic": "Mitsubishi Service Center",
+        "cost": 0,
+        "notes": "Checked battery condition, no issues found"
+      },
+      {
+        "type": "Oil Change",
+        "date": "2023-07-10",
+        "mileage": 23000,
+        "mechanic": "Mitsubishi Service Center",
+        "cost": 70,
+        "notes": "Used synthetic oil and replaced oil filter"
+      }
+    ]
+  },
+  {
+    "id": "5fd73eab-07a4-4f45-8001-1e40640ec5d8",
+    "brand": "Toyota",
+    "model": "Camry",
+    "year": 2022,
+    "color": "White",
+    "mileage": 17000,
+    "engine": {
+      "type": "Inline-4",
+      "displacement": "2.5L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "4T1G11AK4NU501325",
+    "maintenance": [
+      {
+        "type": "Tire Rotation",
+        "date": "2023-01-20",
+        "mileage": 15000,
+        "mechanic": "Toyota Service Center",
+        "cost": 20,
+        "notes": "Rotated tires for even wear"
+      },
+      {
+        "type": "Brake Fluid Flush",
+        "date": "2023-08-10",
+        "mileage": 20000,
+        "mechanic": "Toyota Service Center",
+        "cost": 80,
+        "notes": "Flushed brake fluid and refilled with new fluid"
+      }
+    ]
+  },
+  {
+    "id": "8a7d6b6c-29de-44b4-b034-88fb7b846363",
+    "brand": "Ford",
+    "model": "F-150",
+    "year": 2021,
+    "color": "Black",
+    "mileage": 30000,
+    "engine": {
+      "type": "V6",
+      "displacement": "3.5L",
+      "fuelType": "Gasoline"
+    },
+    "transmission": "Automatic",
+    "vin": "1FTFW1E80MKE27816",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2022-07-10",
+        "mileage": 25000,
+        "mechanic": "Ford Service Center",
+        "cost": 70,
+        "notes": "Used synthetic oil and replaced oil filter"
+      },
+      {
+        "type": "Battery Replacement",
+        "date": "2023-02-05",
+        "mileage": 27000,
+        "mechanic": "Ford Service Center",
+        "cost": 200,
+        "notes": "Replaced battery with OEM equivalent"
+      }
+    ]
+  },
+  {
+    "id": "98a7bfe3-2c9f-4f58-bc2a-fdaa5bc532a1",
+    "brand": "Toyota Prius",
+    "model": "Prius",
+    "year": 2023,
+    "color": "Blue",
+    "mileage": 28000,
+    "engine": {
+      "type": "Hybrid",
+      "displacement": "1.8L",
+      "fuelType": "Gasoline/Electric"
+    },
+    "transmission": "CVT",
+    "vin": "4T1B31HK5KU540139",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2023-03-10",
+        "mileage": 25000,
+        "mechanic": "EcoMechanics",
+        "cost": 70,
+        "notes": "Used synthetic blend oil"
+      },
+      {
+        "date": "2023-09-07",
+        "mileage": 27000,
+        "mechanic": "SafeBrakes Auto",
+        "cost": 0,
+        "notes": "Brakes are in good condition"
+      }
+    ]
+  },
+  {
+    "brand": "Toyota TTL",
+    "model": "TTL",
+    "year": 2023,
+    "color": "Blue",
+    "mileage": 28000,
+    "engine": {
+      "type": "Hybrid",
+      "displacement": "1.8L",
+      "fuelType": "Gasoline/Electric"
+    },
+    "transmission": "CVT",
+    "vin": "4T1B31HK5KU540139",
+    "maintenance": [
+      {
+        "type": "Oil Change",
+        "date": "2023-03-10",
+        "mileage": 25000,
+        "mechanic": "EcoMechanics",
+        "cost": 70,
+        "notes": "Used synthetic blend oil"
+      },
+      {
+        "date": "2023-09-07",
+        "mileage": 27000,
+        "mechanic": "SafeBrakes Auto",
+        "cost": 0,
+        "notes": "Brakes are in good condition"
+      }
+    ],
+    "id": "cb591a01-ad5e-494a-b3c5-91b4acbcd87c"
+  },
+  {
+    "vin": "1FA6P8CF4L5189183",
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 2023,
+    "color": "Black",
+    "mileage": 16000,
+    "id": "782d435f-65f8-4e1e-85f7-582d5a6a1ec9"
+  },
+  {
+    "vin": "55SWF8EB0KU314671",
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "year": 2023,
+    "color": "White",
+    "mileage": 18000,
+    "id": "5c1747a2-c85c-4837-b1d7-3b0a54e682c3"
+  },
+  {
+    "vin": "AAAZZ44455SS",
+    "brand": "Skoda",
+    "model": "Fabia",
+    "year": 2016,
+    "color": "White",
+    "mileage": 15000,
+    "id": "83f275e5-b8ab-40d4-b3c1-25c97feb2197"
+  },
+  {
+    "vin": "WBA5R1C0XLFH14049",
+    "brand": "BMW",
+    "model": "3 Series",
+    "year": 2020,
+    "color": "Black",
+    "mileage": 22001,
+    "id": "be554c0c-2c12-4345-b85c-895142fb24fd"
+  },
+  {
+    "vin": "4T1B31HK5KU540139",
+    "brand": "Toyota CVTTTTT",
+    "model": "CVTTTTT",
+    "year": 2023,
+    "color": "Blue",
+    "mileage": 28001,
+    "id": "6977da52-4953-4044-b861-436862bfa69e"
+  }
+]
