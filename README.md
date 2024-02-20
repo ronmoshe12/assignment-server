@@ -1,7 +1,8 @@
+#Server
 Prerequisites:
--Node.js
--npm (Node Package Manager)
+- Node.js
+- npm (Node Package Manager)
 
-run npm install
-run npm run dev
+- run npm install
+- run npm run dev
 ```
